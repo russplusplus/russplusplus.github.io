@@ -27,11 +27,6 @@ body {
   font-size: 6rem;
 }
 
-#title:active {
-  top: 4px;
-  left: 4px;
-}
-
 #contact {
   padding-top: 3rem;
 }
