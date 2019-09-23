@@ -3,6 +3,63 @@ body {
   background-size: cover;
 }
 
-.whitebox {
-  background-color: rgb(0,0,0);
+#whitebox {
+  background-color: rgba(255,255,255,0.75);
+  margin-top: 100px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+#text {
+  text-align:left;
+  padding: 0rem;
+  font-size: 24px;
+}
+
+#title {
+  border-width: medium;
+  border-color: black;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5rem;
+  border-bottom-color: black;
+  font-size: 6rem;
+}
+
+#title:active {
+  top: 4px;
+  left: 4px;
+}
+
+#contact {
+  padding-top: 3rem;
+}
+
+#pic {
+  padding: 0rem;
+  margin-top: 6rem;
+  width: 30rem;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5rem;
+}
+
+#pic:active {
+  top: 4px;
+  left: 4px;
+}
+
+#subheader {
+  text-size: 30px;
+}
+
+.section-title {
+  padding-top: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#end {
+  padding-bottom: 3rem;
 }
